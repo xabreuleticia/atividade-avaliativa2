@@ -1,8 +1,14 @@
 package pm_prova2_m.src;
 
-public class Moto extends Veiculo{
-    public Moto(String placa, String modelo, int anoFabricacao, double valorDiaria, double quilometragem, StatusVeiculo status) {
+public class VeiculoMoto extends Veiculo{
+
+    public boolean possuiCilindrada;
+
+    public VeiculoMoto(String placa, String modelo, int anoFabricacao, double valorDiaria, double quilometragem, StatusVeiculo status) {
         super(placa, modelo, anoFabricacao, valorDiaria, quilometragem, status);
+    }
+
+    public void realizarInspecao() {
     }
 
     @Override
@@ -16,4 +22,5 @@ public class Moto extends Veiculo{
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'possuiSeguroEspecial'");
     }
+
 };

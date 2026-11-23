@@ -1,8 +1,17 @@
 package pm_prova2_m.src;
 
-public class Van extends Veiculo{
-    public Van(String placa, String modelo, int anoFabricacao, double valorDiaria, double quilometragem, StatusVeiculo status) {
+public class VeiculoVan extends Veiculo{
+
+    public int maximoPassageiros;
+
+    public VeiculoVan(String placa, String modelo, int anoFabricacao, double valorDiaria, double quilometragem, StatusVeiculo status) {
         super(placa, modelo, anoFabricacao, valorDiaria, quilometragem, status);
+    }
+
+    public void avaliar(int nota) {
+    }
+
+    public void realizarInspecao() {
     }
 
     @Override

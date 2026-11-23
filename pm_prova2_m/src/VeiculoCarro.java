@@ -1,8 +1,13 @@
 package pm_prova2_m.src;
 
-public class Carro extends Veiculo{
-    public Carro(String placa, String modelo, int anoFabricacao, double valorDiaria, double quilometragem, StatusVeiculo status) {
+public class VeiculoCarro extends Veiculo{
+    public VeiculoCarro(String placa, String modelo, int anoFabricacao, double valorDiaria, double quilometragem, StatusVeiculo status) {
         super(placa, modelo, anoFabricacao, valorDiaria, quilometragem, status);
+    }
+
+    public int quantidadePortas;
+
+    public void avaliar(int nota) {
     }
 
     @Override
